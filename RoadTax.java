@@ -11,31 +11,31 @@ class RoadTax{
 				  System.out.println("The tax to be paid  from KA is:" +finalTaxKA);
 				  break;
 			case "AP": 
-				  float roadTaxPB=0.20f;
-				  float finalTaxPB=vehiclePrice*roadTaxPB;
-				  System.out.println("The tax to be paid is from PB is:" + finalTaxPB);
-				  break;
-			case "TM": 
-				  float roadTaxTS=0.19f;
-				  float finalTaxTS=vehiclePrice*roadTaxTS;
-			          	  System.out.println("The tax to be paid is from TS is:" + finalTaxTS);
-				  break;
-			case "MH": 
-				  float roadTaxAP=0.22f;
+				  float roadTaxAP=0.20f;
 				  float finalTaxAP=vehiclePrice*roadTaxAP;
 				  System.out.println("The tax to be paid is from AP is:" + finalTaxAP);
 				  break;
+			case "TM": 
+				  float roadTaxTM=0.19f;
+				  float finalTaxTM=vehiclePrice*roadTaxTM;
+			          	  System.out.println("The tax to be paid is from TM is:" + finalTaxTM);
+				  break;
+			case "MH": 
+				  float roadTaxMH=0.22f;
+				  float finalTaxMH=vehiclePrice*roadTaxMH;
+				  System.out.println("The tax to be paid is from MH is:" + finalTaxMH);
+				  break;
 			case "DL":    
-				  float roadTaxKL=0.21f;
+				  float roadTaxDL=0.21f;
+				  float finalTaxDL=vehiclePrice*roadTaxDL;
+				  System.out.println("The tax to be paid is from DL is:" + finalTaxDL);
+				  break;
+			case "KL": 
+				  float roadTaxKL=0.15f;
 				  float finalTaxKL=vehiclePrice*roadTaxKL;
 				  System.out.println("The tax to be paid is from KL is:" + finalTaxKL);
 				  break;
-			case "KL": 
-				  float roadTaxTN=0.15f;
-				  float finalTaxTN=vehiclePrice*roadTaxTN;
-				  System.out.println("The tax to be paid is from TN is:" + finalTaxTN);
-				  break;
-			default : System.out.println("Select from KA,PB,TS,AP,KL,TN");
+			default : System.out.println("Select from KA,AP,TM,MH,DL,KL");
 		}
 	}
 }
